@@ -1,0 +1,128 @@
+body {
+  background-color: #ade8f4;
+
+}
+
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  color: #03045e;
+  font-size: 35px;
+  line-height: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #0096c7;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 0px;
+}
+
+p {
+  color: #0096c7;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 20px;
+}
+
+a {
+  font-size: 30px;
+  padding: 0px 20px 0px 20px;
+  color: #03045e;
+  text-decoration: none;
+  position: relative;
+}
+
+a:hover {
+  color:#08effb;
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+#fb:hover {
+  color: #1752a4;
+}
+
+#insta:hover {
+  color: rgb(239, 8, 216);
+}
+
+#git:hover {
+  color: black;
+}
+
+#strava:hover {
+  color: rgb(230, 108, 15)
+}
+
+
+.btn-code {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.btn-code:hover {
+  color: red;
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+#profile-pic {
+  border-radius: 50px;
+}
+
+.container {
+ margin: 40px auto;
+ width: 700px;
+}
+
+.card {
+  background-color: #caf0f8;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(7, 93, 184, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif
+}
+
+
+.para-interests {
+  font-size: 12px;
+}
+
+.card-title {
+  color: #03045e;
+  text-align: center;
+  margin:auto
+}
+
+li {
+  color:#03045e;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
